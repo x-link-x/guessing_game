@@ -2,7 +2,7 @@ correct_guess = 4
 
 guess = input("Guess a number: ")
 
-while guess:
+while True:
 
     if int(guess) == correct_guess:
         print("Correct")
